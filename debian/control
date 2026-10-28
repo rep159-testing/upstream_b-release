@@ -1,13 +1,13 @@
-Source: vendor-extendable-upstream-b
+Source: vendor-composable-upstream-b
 Section: misc
 Priority: optional
 Maintainer: "Jose Luis Rivero" <jrivero@honurobotics.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, libgtest-dev, libgtest-dev <!nocheck>, vendor-extendable-upstream-a
+Build-Depends: debhelper (>= 9.0.0), cmake, libgtest-dev, libgtest-dev <!nocheck>, vendor-composable-upstream-a
 Homepage: https://index.ros.org/p/upstream_b/#upstream
 Standards-Version: 3.9.2
 
-Package: vendor-extendable-upstream-b
+Package: vendor-composable-upstream-b
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, vendor-extendable-upstream-a
+Depends: ${shlibs:Depends}, ${misc:Depends}, vendor-composable-upstream-a
 Description: Middle of the REP-159 test chain: summarizes an XML document through upstream_a.
  Part of the upstream distribution of the rep159-testing harness.
